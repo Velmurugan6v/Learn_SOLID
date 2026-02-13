@@ -232,7 +232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &30631055
 Transform:
   m_ObjectHideFlags: 0
@@ -265,9 +265,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec4bf8a5eb17ad24cb7df43fd60ef2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TankFire
-  bulletPrefab: {fileID: 5035260735667473760, guid: 8c16e98e77a614d46a13aa4aec524414, type: 3}
+  projectTileComponent: {fileID: 0}
   firePoint: {fileID: 317176540}
-  bulletForce: 10
 --- !u!114 &30631057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,7 +391,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &462416399
 Transform:
   m_ObjectHideFlags: 0
@@ -439,9 +438,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec4bf8a5eb17ad24cb7df43fd60ef2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TankFire
-  bulletPrefab: {fileID: 5035260735667473760, guid: 8c16e98e77a614d46a13aa4aec524414, type: 3}
+  projectTileComponent: {fileID: 0}
   firePoint: {fileID: 293363249}
-  bulletForce: 10
 --- !u!114 &462416403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -926,6 +924,53 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &579733753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 579733755}
+  - component: {fileID: 579733754}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &579733754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579733753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cb4a2846d312c9419d0e59d0016033b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  tanks:
+  - {fileID: 2122256028}
+  - {fileID: 1434997166}
+--- !u!4 &579733755
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579733753}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &593200948
 GameObject:
   m_ObjectHideFlags: 0
@@ -1626,7 +1671,7 @@ Transform:
   m_GameObject: {fileID: 1369475243}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.71, y: 0, z: 0}
+  m_LocalPosition: {x: -5.72, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1663,9 +1708,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec4bf8a5eb17ad24cb7df43fd60ef2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TankFire
-  bulletPrefab: {fileID: 5035260735667473760, guid: 8c16e98e77a614d46a13aa4aec524414, type: 3}
+  projectTileComponent: {fileID: 5649971887330317393, guid: e169ad641a78d1c4e804f728c52e941e, type: 3}
   firePoint: {fileID: 1334371109}
-  bulletForce: 10
 --- !u!114 &1369475248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1695,6 +1739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LightTankMovement
   tankObject: {fileID: 1369475244}
   moveSpeed: 5
+  rotationSpeed: 0
 --- !u!1 &1430261657
 GameObject:
   m_ObjectHideFlags: 0
@@ -2574,3 +2619,4 @@ SceneRoots:
   - {fileID: 30631055}
   - {fileID: 462416399}
   - {fileID: 2122256029}
+  - {fileID: 579733755}

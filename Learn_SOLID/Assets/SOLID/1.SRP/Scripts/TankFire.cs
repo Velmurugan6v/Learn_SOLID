@@ -1,52 +1,56 @@
 using System;
+using Generics;
 using UnityEngine;
 
 public class TankFire : MonoBehaviour
 {
     public MonoBehaviour projectTileComponent;
-    private IProjectile projectile;
+    
+    private IProjectile _projectile;
 
     public Transform firePoint;
 
-    private IFireMode fireMode;
+    private IFireMode _fireMode;
+    
 
 
     //----Methods----
 
     void Start()
     {
-        fireMode = new NormalFIreMode();
+        _fireMode = new NormalFIreMode();
 
         SetUpProjectTile();
     }
+    
 
     private void SetUpProjectTile()
     {
-        projectile = projectTileComponent as IProjectile;
+        _projectile = projectTileComponent as IProjectile;
 
-        if (projectile == null)
+        if (_projectile == null)
             Debug.Log("ProjectTile is empty");
     }
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetMouseButtonDown(0))
             Fire();
 
 
         //Fire Mode
         if (Input.GetKeyDown(KeyCode.Alpha1))
-            fireMode = new NormalFIreMode();
+            _fireMode = new NormalFIreMode();
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
-            fireMode = new BurstFireMode();
+            _fireMode = new BurstFireMode();
 
     }
 
     private void Fire()
     {
-        if (projectile != null)
-            projectile.Fire(firePoint);
+        if (_projectile != null)
+            _projectile.Fire(firePoint);
     }
 
 
