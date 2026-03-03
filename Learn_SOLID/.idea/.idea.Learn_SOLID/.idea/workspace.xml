@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d44a10-1858-4270-994c-6d38fdb869b8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/SOLID/1.SRP/Scripts/TankFire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SOLID/1.SRP/Scripts/TankFire.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SOLID/5.DIP/SRP.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SOLID/5.DIP/SRP.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SOLID/5.DIP/Scripts/HeavyShelProjecttile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SOLID/5.DIP/Scripts/HeavyShelProjecttile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SOLID/5.DIP/Scripts/IProjectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SOLID/5.DIP/Scripts/IProjectile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Learn/Singleton/New Temo.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn_SOLID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn_SOLID/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/493b407efcb64dddad59f28bb0b831d3212400/cb/abec4c82/MonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Learn/Forest/EscapeRoomGameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Learn/Singleton/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -35,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Generic-T&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "Generic-T",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="V:\Unity\6000.3.2f1\Editor\Unity.exe" />
@@ -99,6 +97,8 @@
       <workItem from="1770917901575" duration="1836000" />
       <workItem from="1770960542555" duration="5198000" />
       <workItem from="1770975787302" duration="7227000" />
+      <workItem from="1772091817304" duration="5210000" />
+      <workItem from="1772172828054" duration="10136000" />
     </task>
     <servers />
   </component>
