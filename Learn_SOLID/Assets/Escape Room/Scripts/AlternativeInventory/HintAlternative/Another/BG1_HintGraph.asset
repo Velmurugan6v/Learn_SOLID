@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be354a48c00b4694587e90e9ebeffbfa, type: 3}
+  m_Name: BG1_HintGraph
+  m_EditorClassIdentifier: Assembly-CSharp::HintGraphData
+  nodes:
+  - nodeId: 0f36f480-4ad5-43ac-afaa-f282c59033dc
+    nodeType: 0
+    editorRect:
+      serializedVersion: 2
+      x: -664.7538
+      y: -333.69476
+      width: 200
+      height: 80
+    label: START
+    hintLocation: {fileID: 0}
+    hintType: 0
+    inventoryId: 0
+    innerPanelId: 0
+    glowDuration: 1.2
+    conditionType: 0
+    conditionTargetId: 0
+    conditionKey: 
+    triggerInventoryId: 0
+    triggerOnPickup: 1
+  - nodeId: 05dd01a6-39cf-432f-8123-0dd656e533bf
+    nodeType: 2
+    editorRect:
+      serializedVersion: 2
+      x: -677.081
+      y: -198.57913
+      width: 200
+      height: 80
+    label: CONDITION
+    hintLocation: {fileID: 0}
+    hintType: 0
+    inventoryId: 0
+    innerPanelId: 0
+    glowDuration: 1.2
+    conditionType: 0
+    conditionTargetId: 0
+    conditionKey: 
+    triggerInventoryId: 0
+    triggerOnPickup: 1
+  - nodeId: afd428da-e7d5-4585-99a5-8ee5efca3d83
+    nodeType: 4
+    editorRect:
+      serializedVersion: 2
+      x: -967.26184
+      y: 69.739136
+      width: 200
+      height: 80
+    label: END
+    hintLocation: {fileID: 0}
+    hintType: 0
+    inventoryId: 0
+    innerPanelId: 0
+    glowDuration: 1.2
+    conditionType: 0
+    conditionTargetId: 0
+    conditionKey: 
+    triggerInventoryId: 0
+    triggerOnPickup: 1
+  - nodeId: 1a0ec123-6e29-43e6-9855-7453d0ae7b60
+    nodeType: 2
+    editorRect:
+      serializedVersion: 2
+      x: -843.6511
+      y: -64.730194
+      width: 200
+      height: 80
+    label: CONDITION
+    hintLocation: {fileID: 0}
+    hintType: 0
+    inventoryId: 0
+    innerPanelId: 0
+    glowDuration: 1.2
+    conditionType: 0
+    conditionTargetId: 0
+    conditionKey: 
+    triggerInventoryId: 0
+    triggerOnPickup: 1
+  - nodeId: 1e608ef6-8022-4f7a-b192-c74a7d9048fa
+    nodeType: 1
+    editorRect:
+      serializedVersion: 2
+      x: -591.99774
+      y: -57.599823
+      width: 200
+      height: 80
+    label: HINT SEQUENCE
+    hintLocation: {fileID: 0}
+    hintType: 0
+    inventoryId: 0
+    innerPanelId: 0
+    glowDuration: 1.2
+    conditionType: 0
+    conditionTargetId: 0
+    conditionKey: 
+    triggerInventoryId: 0
+    triggerOnPickup: 1
+  - nodeId: c6cc1847-b6b3-4e88-9cfc-c2a172edc55f
+    nodeType: 3
+    editorRect:
+      serializedVersion: 2
+      x: -586.3976
+      y: 76.80023
+      width: 200
+      height: 80
+    label: INVENTORY TRIGGER
+    hintLocation: {fileID: 0}
+    hintType: 0
+    inventoryId: 0
+    innerPanelId: 0
+    glowDuration: 1.2
+    conditionType: 0
+    conditionTargetId: 0
+    conditionKey: 
+    triggerInventoryId: 0
+    triggerOnPickup: 1
+  - nodeId: 315d3121-07c5-456e-8b74-a0da2c63c50e
+    nodeType: 0
+    editorRect:
+      serializedVersion: 2
+      x: -1736.0714
+      y: -472.3143
+      width: 200
+      height: 80
+    label: START
+    hintLocation: {fileID: 0}
+    hintType: 0
+    inventoryId: 0
+    innerPanelId: 0
+    glowDuration: 1.2
+    conditionType: 0
+    conditionTargetId: 0
+    conditionKey: 
+    triggerInventoryId: 0
+    triggerOnPickup: 1
+  connections:
+  - fromNodeId: 0f36f480-4ad5-43ac-afaa-f282c59033dc
+    fromPortIndex: 0
+    toNodeId: 05dd01a6-39cf-432f-8123-0dd656e533bf
+  - fromNodeId: 05dd01a6-39cf-432f-8123-0dd656e533bf
+    fromPortIndex: 0
+    toNodeId: 1a0ec123-6e29-43e6-9855-7453d0ae7b60
+  - fromNodeId: 1a0ec123-6e29-43e6-9855-7453d0ae7b60
+    fromPortIndex: 0
+    toNodeId: afd428da-e7d5-4585-99a5-8ee5efca3d83
+  - fromNodeId: 05dd01a6-39cf-432f-8123-0dd656e533bf
+    fromPortIndex: 1
+    toNodeId: 1e608ef6-8022-4f7a-b192-c74a7d9048fa
+  - fromNodeId: 1e608ef6-8022-4f7a-b192-c74a7d9048fa
+    fromPortIndex: 0
+    toNodeId: c6cc1847-b6b3-4e88-9cfc-c2a172edc55f
