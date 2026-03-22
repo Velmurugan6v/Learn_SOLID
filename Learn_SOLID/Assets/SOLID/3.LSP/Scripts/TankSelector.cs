@@ -1,18 +1,28 @@
+using System;
 using UnityEngine;
 
-public class TankSelector : MonoBehaviour
+public class TankSelector : MonoBehaviour, IUpdateObserver
 {
     [SerializeField] TankEngine lightTankEngine;
     [SerializeField] TankEngine mediumTankEngine;
     [SerializeField] TankEngine largeTankEngine;
+
+    private void OnEnable()
+    {
+        UpdataManager.RegisterObserver(this);
+    }
+
+    private void OnDisable()
+    {
+        UpdataManager.UnregisterObserver(this);
+    }
 
     void Start()
     {
         DisabbleAllTankEngine();
     }
 
-
-    void Update()
+    public void ObservedUpdate()
     {
         if (Input.GetKeyDown(KeyCode.L))
         {

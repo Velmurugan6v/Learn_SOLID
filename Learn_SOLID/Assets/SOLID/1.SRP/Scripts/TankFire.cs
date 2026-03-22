@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class TankFire : MonoBehaviour
+public class TankFire : MonoBehaviour,IUpdateObserver
 {
     public MonoBehaviour projectTileComponent;
     private IProjectile projectile;
@@ -12,6 +12,16 @@ public class TankFire : MonoBehaviour
 
 
     //----Methods----
+
+    private void OnEnable()
+    {
+        UpdataManager.RegisterObserver(this);
+    }
+
+    private void OnDisable()
+    {
+        UpdataManager.UnregisterObserver(this);
+    }
 
     void Start()
     {
@@ -28,7 +38,14 @@ public class TankFire : MonoBehaviour
             Debug.Log("ProjectTile is empty");
     }
 
-    public void Update()
+    private void Fire()
+    {
+        if (projectile != null)
+            projectile.Fire(firePoint);
+    }
+
+
+    public void ObservedUpdate()
     {
         if (Input.GetKeyDown(KeyCode.Space))
             Fire();
@@ -40,14 +57,5 @@ public class TankFire : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
             fireMode = new BurstFireMode();
-
     }
-
-    private void Fire()
-    {
-        if (projectile != null)
-            projectile.Fire(firePoint);
-    }
-
-
 }

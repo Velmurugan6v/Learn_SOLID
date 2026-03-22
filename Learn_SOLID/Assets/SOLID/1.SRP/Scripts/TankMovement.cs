@@ -1,6 +1,7 @@
+using System;
 using UnityEngine;
 
-public class TankMovement : MonoBehaviour
+public class TankMovement : MonoBehaviour, IUpdateObserver
 {
     public Transform tankObject;
     public float moveSpeed = 5f;
@@ -9,6 +10,16 @@ public class TankMovement : MonoBehaviour
     private IMoveBackward moveBackward;
     private IMoveRight moveRight;
     private IMoveLeft moveLeft;
+
+    private void OnEnable()
+    {
+        UpdataManager.RegisterObserver(this);
+    }
+
+    private void OnDisable()
+    {
+        UpdataManager.UnregisterObserver(this);
+    }
 
     void Start()
     {
@@ -19,7 +30,7 @@ public class TankMovement : MonoBehaviour
     }
 
 
-    void Update()
+    public void ObservedUpdate()
     {
         Move();
     }
@@ -43,12 +54,12 @@ public class TankMovement : MonoBehaviour
         if (moveInputX > 0)
         {
             if (moveRight != null)
-                moveRight.MoveRight(moveInputX);
+                moveRight.MoveRight(-moveInputX);
         }
         else if (moveInputX < 0)
         {
             if (moveLeft != null)
-                moveLeft.MoveLeft(moveInputX);
+                moveLeft.MoveLeft(-moveInputX);
         }
     }
 }

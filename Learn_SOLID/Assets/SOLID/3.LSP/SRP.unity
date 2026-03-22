@@ -222,7 +222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 30631055}
-  - component: {fileID: 30631058}
+  - component: {fileID: 30631060}
   - component: {fileID: 30631057}
   - component: {fileID: 30631056}
   - component: {fileID: 30631059}
@@ -265,9 +265,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec4bf8a5eb17ad24cb7df43fd60ef2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TankFire
-  bulletPrefab: {fileID: 5035260735667473760, guid: 8c16e98e77a614d46a13aa4aec524414, type: 3}
+  projectTileComponent: {fileID: 4837374496041662050, guid: 9891ba21bfd936b4a9e84e5eaf1c4916, type: 3}
   firePoint: {fileID: 317176540}
-  bulletForce: 10
 --- !u!114 &30631057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,22 +279,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9ca4636d22a6484ba5f57f957e5e1da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TankRotation
+  camera: {fileID: 1434997168}
   aimObject: {fileID: 1890753751}
   rotateSpeed: 0
---- !u!114 &30631058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 30631054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12580fdeb2a7b624c866a02d858cfe3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TankMovement
-  tankObject: {fileID: 30631055}
-  moveSpeed: 5
 --- !u!114 &30631059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,9 +294,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fd8237e11a825a4085e4bb192ca5c5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MediumTankEngine
-  tankMovement: {fileID: 30631058}
+  tankMovement: {fileID: 30631060}
   tankRotation: {fileID: 30631057}
   tankFire: {fileID: 30631056}
+--- !u!114 &30631060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30631054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b7d62b5c4c0e074a8b91b76eeaf7dac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MediumTankMovement
+  tankObject: {fileID: 30631055}
+  moveSpeed: 5
 --- !u!1 &293363248
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,7 +382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 462416399}
-  - component: {fileID: 462416401}
+  - component: {fileID: 462416404}
   - component: {fileID: 462416400}
   - component: {fileID: 462416402}
   - component: {fileID: 462416403}
@@ -425,22 +425,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9ca4636d22a6484ba5f57f957e5e1da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TankRotation
+  camera: {fileID: 1434997168}
   aimObject: {fileID: 1360361509}
-  rotateSpeed: 0
---- !u!114 &462416401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462416398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12580fdeb2a7b624c866a02d858cfe3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TankMovement
-  tankObject: {fileID: 462416399}
-  moveSpeed: 5
+  rotateSpeed: 2.18
 --- !u!114 &462416402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,9 +440,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec4bf8a5eb17ad24cb7df43fd60ef2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TankFire
-  bulletPrefab: {fileID: 5035260735667473760, guid: 8c16e98e77a614d46a13aa4aec524414, type: 3}
+  projectTileComponent: {fileID: 5649971887330317393, guid: e169ad641a78d1c4e804f728c52e941e, type: 3}
   firePoint: {fileID: 293363249}
-  bulletForce: 10
 --- !u!114 &462416403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,9 +454,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94c0fe5455801ed4b8be0d5048ad4569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LargeTankEngine
-  tankMovement: {fileID: 462416401}
+  tankMovement: {fileID: 462416404}
   tankRotation: {fileID: 462416400}
   tankFire: {fileID: 462416402}
+--- !u!114 &462416404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462416398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9011242f541ffd2498c0e87d247f374a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HeavyTankMovement
+  tankObject: {fileID: 462416399}
+  moveSpeed: 5
 --- !u!1 &481814394
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,6 +653,50 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &529987272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 529987274}
+  - component: {fileID: 529987273}
+  m_Layer: 0
+  m_Name: UpdataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &529987273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529987272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6bdbabe6063a241a39a7d8627060b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UpdataManager
+--- !u!4 &529987274
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529987272}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &548308792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,7 +1650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1369475244}
-  - component: {fileID: 1369475245}
+  - component: {fileID: 1369475249}
   - component: {fileID: 1369475246}
   - component: {fileID: 1369475247}
   - component: {fileID: 1369475248}
@@ -1637,20 +1681,6 @@ Transform:
   - {fileID: 7355117}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1369475245
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369475243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12580fdeb2a7b624c866a02d858cfe3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TankMovement
-  tankObject: {fileID: 1369475244}
-  moveSpeed: 5
 --- !u!114 &1369475246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1663,8 +1693,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9ca4636d22a6484ba5f57f957e5e1da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TankRotation
+  camera: {fileID: 1434997168}
   aimObject: {fileID: 7355117}
-  rotateSpeed: 0
+  rotateSpeed: 4.45
 --- !u!114 &1369475247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1677,9 +1708,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec4bf8a5eb17ad24cb7df43fd60ef2f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TankFire
-  bulletPrefab: {fileID: 5035260735667473760, guid: 8c16e98e77a614d46a13aa4aec524414, type: 3}
+  projectTileComponent: {fileID: 80543685085425041, guid: 48c8fb4a5a98636448d682bc374fe094, type: 3}
   firePoint: {fileID: 1334371109}
-  bulletForce: 10
 --- !u!114 &1369475248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1692,9 +1722,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c291ad3bd783c604da91010c3425f9c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightTankEngine
-  tankMovement: {fileID: 1369475245}
+  tankMovement: {fileID: 1369475249}
   tankRotation: {fileID: 1369475246}
   tankFire: {fileID: 1369475247}
+--- !u!114 &1369475249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1369475243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30ae4ac77394cef49af2615f647d9b52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LightTankMovement
+  tankObject: {fileID: 1369475244}
+  moveSpeed: 5
+  rotationSpeed: 70
 --- !u!1 &1430261657
 GameObject:
   m_ObjectHideFlags: 0
@@ -2574,3 +2619,4 @@ SceneRoots:
   - {fileID: 30631055}
   - {fileID: 462416399}
   - {fileID: 2122256029}
+  - {fileID: 529987274}

@@ -1,11 +1,23 @@
+using System;
 using UnityEngine;
 
-public class TankRotation : MonoBehaviour
+public class TankRotation : MonoBehaviour, IUpdateObserver
 {
+    public Camera camera;
     public Transform aimObject;
     public float rotateSpeed;
 
-    void Update()
+    private void OnEnable()
+    {
+        UpdataManager.RegisterObserver(this);
+    }
+
+    private void OnDisable()
+    {
+        UpdataManager.UnregisterObserver(this);
+    }
+
+    public void ObservedUpdate()
     {
         Aim();
     }
@@ -18,7 +30,7 @@ public class TankRotation : MonoBehaviour
         // float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90;
         // aimObject.rotation = Quaternion.Euler(0, 0, angle);
 
-        Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mouseWorldPos = camera.ScreenToWorldPoint(Input.mousePosition);
         Vector2 direction = mouseWorldPos - transform.position;
 
         float targetAngle =
