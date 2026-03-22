@@ -146,6 +146,44 @@ MonoBehaviour:
     conditionKey: 
     triggerInventoryId: 0
     triggerOnPickup: 1
+  - nodeId: 23201944-b879-4942-8867-8d0d895e99b2
+    nodeType: 1
+    editorRect:
+      serializedVersion: 2
+      x: 220.12308
+      y: 135.13849
+      width: 200
+      height: 80
+    label: HINT SEQUENCE
+    hintLocation: {fileID: 0}
+    hintType: 0
+    inventoryId: 0
+    innerPanelId: 0
+    glowDuration: 1.2
+    conditionType: 0
+    conditionTargetId: 0
+    conditionKey: 
+    triggerInventoryId: 0
+    triggerOnPickup: 1
+  - nodeId: 36f4b93c-99e0-4e19-beef-1d21624aa2d7
+    nodeType: 1
+    editorRect:
+      serializedVersion: 2
+      x: 169.84613
+      y: 290.40002
+      width: 200
+      height: 80
+    label: HINT SEQUENCE
+    hintLocation: {fileID: 0}
+    hintType: 0
+    inventoryId: 0
+    innerPanelId: 0
+    glowDuration: 1.2
+    conditionType: 0
+    conditionTargetId: 0
+    conditionKey: 
+    triggerInventoryId: 0
+    triggerOnPickup: 1
   connections:
   - fromNodeId: 0f36f480-4ad5-43ac-afaa-f282c59033dc
     fromPortIndex: 0
