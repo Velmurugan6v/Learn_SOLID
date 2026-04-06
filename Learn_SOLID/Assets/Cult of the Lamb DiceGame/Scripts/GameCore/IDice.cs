@@ -4,6 +4,6 @@ namespace CultOfTheLamb_DiceGame
 {
     public interface IDice
     {
-        void RollDice();
+        int RollDice();
     }
 }

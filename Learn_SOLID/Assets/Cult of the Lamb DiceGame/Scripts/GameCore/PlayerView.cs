@@ -9,8 +9,13 @@ public class PlayerView : MonoBehaviour
     public Text playerTotalValueText;
     public Text enemyTotalValueText;
 
-    public void ShowColumnTotal()
+    public void ShowColumnTotal(int columnTextCount, int totalValue)
     {
-        
+        playerScoreText[columnTextCount].text = totalValue + "";
+    }
+
+    public void ShowTotalColumnTotal(int columnTextCount)
+    {
+        playerTotalValueText.text = columnTextCount + "";
     }
 }

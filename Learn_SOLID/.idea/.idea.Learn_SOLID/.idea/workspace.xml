@@ -6,13 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="8de231d2-e6fc-4e68-b25f-dc25eda210f4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn_SOLID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn_SOLID/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SOLID/1.SRP/Scripts/TankFire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SOLID/1.SRP/Scripts/TankFire.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SOLID/1.SRP/Scripts/TankMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SOLID/1.SRP/Scripts/TankMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SOLID/1.SRP/Scripts/TankRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SOLID/1.SRP/Scripts/TankRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SOLID/3.LSP/SRP.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SOLID/3.LSP/SRP.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SOLID/3.LSP/Scripts/TankSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SOLID/3.LSP/Scripts/TankSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TankConstructor/Demo/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TankConstructor/Demo/LightingData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/IDice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/IDice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerDice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerDice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/Slot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/Slot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Tiny_Dice_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Tiny_Dice_Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEditor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +45,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/493b407efcb64dddad59f28bb0b831d3212400/9d/0226a807/Transform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/493b407efcb64dddad59f28bb0b831d3212400/a3/a7efe7b2/InvokableCall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/493b407efcb64dddad59f28bb0b831d3212400/e6/06b4bbec/Component.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/23/a90699de/Int32.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/7b/925e5332/Action.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/822ef144c83a49dfbe8ab1337f169b362f000/e2/baec828d/GUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9f5b56dd5c02460f98317781518eb94722800/10/f28d6ce6/AudioSource.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,6 +66,7 @@
     <setting file="file://$PROJECT_DIR$/../../../../Work/RV/RV/Assets/DV/Level 1062/Scripts/LevelManager_1062.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../Work/RV/RV/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInput.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
@@ -149,12 +160,21 @@
       <workItem from="1773729375862" duration="2291000" />
       <workItem from="1774076493372" duration="6667000" />
       <workItem from="1774161076741" duration="4451000" />
+      <workItem from="1774286346195" duration="5573000" />
+      <workItem from="1774418806950" duration="3415000" />
+      <workItem from="1774424393735" duration="6024000" />
+      <workItem from="1774512695840" duration="597000" />
+      <workItem from="1774543732056" duration="7073000" />
+      <workItem from="1774589234983" duration="3139000" />
+      <workItem from="1774967651351" duration="4216000" />
+      <workItem from="1775024297771" duration="6599000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />
