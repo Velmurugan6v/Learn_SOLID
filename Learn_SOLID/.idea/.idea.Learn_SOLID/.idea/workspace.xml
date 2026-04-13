@@ -6,22 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8de231d2-e6fc-4e68-b25f-dc25eda210f4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn_SOLID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn_SOLID/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/IDice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/IDice.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerDice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerDice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/PlayerView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/Slot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Scripts/GameCore/Slot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Tiny_Dice_Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cult of the Lamb DiceGame/Tiny_Dice_Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEditor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +157,13 @@
       <workItem from="1774589234983" duration="3139000" />
       <workItem from="1774967651351" duration="4216000" />
       <workItem from="1775024297771" duration="6599000" />
+      <workItem from="1775484552757" duration="8887000" />
+      <workItem from="1775554110943" duration="1237000" />
+      <workItem from="1775571127949" duration="6988000" />
+      <workItem from="1775659659257" duration="7019000" />
+      <workItem from="1775717703264" duration="1299000" />
+      <workItem from="1775741220098" duration="7413000" />
+      <workItem from="1775834821064" duration="299000" />
     </task>
     <servers />
   </component>

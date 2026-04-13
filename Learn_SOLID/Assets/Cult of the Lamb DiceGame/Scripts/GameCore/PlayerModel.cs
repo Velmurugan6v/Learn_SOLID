@@ -24,6 +24,14 @@ public class PlayerModel
             slotColumnArray[i] = new ColumnSlot(_rowCount);
         }
     }
+
+    public void ResetColumnSlot()
+    {
+        foreach (var columnSlot in slotColumnArray)
+        {
+            columnSlot.ResetSlot();
+        }
+    }
 }
 
 [System.Serializable]
@@ -38,5 +46,18 @@ public class ColumnSlot
     {
         this.rowCount = rowCount;
         slotArray = new Slot[this.rowCount];
+    }
+
+    public void ResetSlot()
+    {
+        currentSlotIndex = 0;
+        totalSlotsValueCount = 0;
+
+        foreach (var slot in slotArray)
+        {
+            slot.SlotCurrentValue = 0;
+            slot.SlotImage.color = Color.white;
+            slot.SlotImage.sprite = null;
+        }
     }
 }
