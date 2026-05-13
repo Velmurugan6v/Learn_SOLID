@@ -3,6 +3,7 @@ using UnityEngine;
 public class LightShelProjectile : MonoBehaviour, IProjectile
 {
     public GameObject shellPrefab;
+
     public void Fire(Transform firePoint)
     {
         GameObject shell = Instantiate(shellPrefab, firePoint.position, firePoint.rotation);

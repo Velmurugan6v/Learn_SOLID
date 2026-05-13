@@ -8,11 +8,9 @@ public class TankEngine : MonoBehaviour
 
     public virtual void StartEngine()
     {
-
     }
 
     public virtual void StopEngine()
     {
-        
     }
 }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MediumTankMovement : TankMovement, IMoveForward,IMoveBackward
+public class MediumTankMovement : TankMovement, IMoveForward, IMoveBackward
 {
     public void MoveBackward(float inputValue)
     {

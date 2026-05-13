@@ -40,7 +40,6 @@ public class TankFire : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
             fireMode = new BurstFireMode();
-
     }
 
     private void Fire()
@@ -48,6 +47,4 @@ public class TankFire : MonoBehaviour
         if (projectile != null)
             projectile.Fire(firePoint);
     }
-
-
 }
