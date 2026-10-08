@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5118409b-ec1a-4ec7-82d7-82ed35def441" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Puzzle/Scripts/BallCollisionDetect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Puzzle/Scripts/BallCollisionDetect.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Learn_SOLID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Learn_SOLID/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WoodAssociat/Scene/WoodAssociation_MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WoodAssociat/Scene/WoodAssociation_MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WoodAssociat/Scripts/MainMenuManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WoodAssociat/Scripts/MainMenuManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WoodAssociat/Scripts/SaveLoad/ISaveble.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WoodAssociat/Scripts/SaveLoad/ISaveble.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WoodAssociat/Scripts/Utility/Loghandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WoodAssociat/Scripts/Utility/Loghandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Recovery.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/Plugins/Demigiant.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/Plugins/Demigiant/DOTween.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/Plugins/Demigiant/DOTween/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/Plugins/Sirenix.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/Plugins/Sirenix/Assemblies.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/Plugins/Sirenix/Assemblies/NoEditor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/Plugins/Sirenix/Assemblies/NoEmitAndNoEditor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Recovery/Plugins/Sirenix/Demos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +118,8 @@
       <workItem from="1778943618496" duration="2329000" />
       <workItem from="1779001376463" duration="2779000" />
       <workItem from="1779009797912" duration="1952000" />
+      <workItem from="1786977565486" duration="5032000" />
+      <workItem from="1787025024210" duration="8557000" />
     </task>
     <servers />
   </component>
